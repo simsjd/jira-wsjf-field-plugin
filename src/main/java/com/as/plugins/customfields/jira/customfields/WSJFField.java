@@ -20,9 +20,9 @@ import java.util.Map;
 public class WSJFField extends CalculatedCFType implements SortableCustomField{
     // Set the custom field ids to the strings below
     private String storyPointsId = "customfield_10008";
-    private String timeCriticalityId = "customfield_14515";
-    private String riskOpportunityValueId = "customfield_14512";
-    private String businessValuePreId = "customfield_14503";
+    private String timeCriticalityId = "customfield_13800";
+    private String riskOpportunityValueId = "customfield_13801";
+    private String businessValuePreId = "customfield_13802";
 
     @Override
     public Map<String, Object> getVelocityParameters(final Issue issue,
